@@ -46,7 +46,6 @@ var normalizeToView = module.exports = function (options) {
         if (!newContent) {
             return newContent;
         }
-        debugger;
         view = normalizeToView(assign({}, options, {content: newContent}));
     }
     if (!view && options.Constructor) {
