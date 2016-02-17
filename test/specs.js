@@ -7,6 +7,7 @@ global.HTMLElement = global.window.HTMLElement;
 var template = require('lodash.template');
 var normalizeToView = require("..");
 var TemplateView = require('template-view');
+var View = require('simple-view').View;
 var Model = require('backbone-model').Model;
 var assert = require('assert');
 describe('normalizeToView', () => {
