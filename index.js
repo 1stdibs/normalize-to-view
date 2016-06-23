@@ -3,10 +3,10 @@ var TemplateView; // required after export is defined to avoid circular dependen
 var result = require('lodash.result');
 var assign = require('lodash.assign');
 var View = require('simple-view').View;
-if (!global.HTMLElement) {
-    throw new Error('normalize-to-view expects global.HTMLElement');
-}
 var normalizeToView = module.exports = function (options) {
+    if (!global.HTMLElement) {
+        throw new Error('normalize-to-view expects global.HTMLElement');
+    }
     // TODO: test this
     var view;
     var constructorOptions;
