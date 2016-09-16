@@ -1,6 +1,6 @@
 {
   "name": "normalize-to-view",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "normalizes a view spec to a backbone-style view",
   "author": "1stdibs.com, Inc.",
   "scripts": {
